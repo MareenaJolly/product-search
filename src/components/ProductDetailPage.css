@@ -1,0 +1,83 @@
+/* ProductDetailPage.css */
+
+/* Main container for the product detail */
+.product-detail-container {
+    max-width: 800px; /* Limiting max width for better readability */
+    margin: 20px auto; /* Centering the container */
+    padding: 20px; /* Adding padding for spacing */
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Centering text */
+}
+
+/* Back link styling */
+.back-link {
+    color: #007bff; /* Blue color for link */
+    text-decoration: none; /* No underline */
+    margin-bottom: 15px; /* Space below the link */
+}
+
+.back-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Product title styling */
+.product-title {
+    font-size: 2rem; /* Larger font for title */
+    margin: 10px 0; /* Space above and below */
+    color: #333; /* Dark color for title */
+}
+
+/* Container for product image and details */
+.product-info {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px; /* Space above the product info */
+}
+
+/* Product image styling */
+.product-image {
+    max-width: 250px; /* Limit image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for image */
+    margin-right: 20px; /* Space between image and details */
+}
+
+/* Details container styling */
+.product-details {
+    text-align: left; /* Align text to the left */
+    max-width: 400px; /* Limit max width for details */
+}
+
+/* Product description styling */
+.product-description {
+    font-size: 1rem; /* Standard font size */
+    color: #555; /* Grey color for description */
+    margin: 15px 0; /* Margin around description */
+    line-height: 1.5; /* Line height for readability */
+}
+
+/* Price styling */
+.product-price {
+    font-size: 1.5rem; /* Larger font for price */
+    color: #28a745; /* Green color for price */
+    margin-bottom: 20px; /* Space below price */
+}
+
+/* Button styling */
+.favorite-button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Standard font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.favorite-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
